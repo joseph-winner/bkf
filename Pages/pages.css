@@ -47,6 +47,12 @@ nav .user-profile{
     cursor: pointer;
 }
 
+@media(max-width:767px){
+    .nav-items{
+        display: none;
+    }
+}
+
 /* NAVIGATION BAR */
 
 
@@ -376,8 +382,8 @@ nav .user-profile{
 
 @media(max-width:368px){
     .header .header-desc{
-        font-size: 14px;
-        font-weight: 500;
+        font-size: 16px;
+        font-weight: 700;
     }
 
     .header .header-desc{
