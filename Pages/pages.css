@@ -1,0 +1,476 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* NAVIGATION BAR */
+
+nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    z-index: 100000;
+}
+
+nav .nav-items ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+nav .nav-items ul li{
+    padding: 10px 25px;
+}
+
+nav .nav-items ul li a{
+    text-decoration: none;
+    color: #111;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+nav .humberger{
+    font-size: 28px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+nav .user-profile{
+    margin-right: 40px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+/* NAVIGATION BAR */
+
+
+
+/* REGISTRATION FORM */
+.registration-form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 35px 25px;
+}
+
+.registration-form .registration-items{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.registration-form .registration-items .reg-item-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.registration-form .registration-items .reg-item-1 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 30px;
+    border: 0.5px solid #ccc;
+}
+
+#reg-profile{
+    background-color: #4267b2;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.registration-form .registration-items .reg-item-1 .reg-item-profile-pic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.registration-form .registration-items .reg-item-1 input{
+    outline: none;
+    border: none;
+    border: 1px solid #ddd;
+    padding: 8px 15px;
+    display: block;
+    border-radius: 4px;
+    margin: 15px 0px;
+    width: 90%;
+}
+
+
+.reg-button-items{
+    background: none;
+    border: none;
+    outline: none;
+    background-color: #4267b2;
+    color: #fff;
+    font-weight: 500;
+    padding: 6px 12px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.success-register-complete{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    align-items: center;
+    margin-top: 20%;
+}
+
+.success-register-complete .user-nam, .success-register-complete .kasa-fa{
+    color: #4267b2;
+    font-size: 22px;
+    font-weight: 500;
+}
+.success-register-complete p{
+    width: 90%;
+}
+/* REGISTRATION FORM */
+
+
+/* PROFILE CARD */
+.profile-section{
+    margin: 35px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.profile-section a{
+    text-decoration: none;
+}
+
+.profile-section .profile-header{
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.profile-section .profile-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile-card .card-header{
+    position: relative;
+}
+
+.profile-card .card-header .edit-profilecard{
+    position: absolute;
+    top: 10px;
+    right: -30px;
+    background-color: #4267b2;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.profile-card .card-header img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid #4267b2;
+    object-fit: cover;
+}
+
+.card-header .full-nam{
+    font-weight: 600;
+}
+
+.card-header .user-name, .card-header .user-mail, .card-header .contact-no{
+    line-height: 1.5;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.profile-user-posts-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25 0px;
+    flex-direction: column;
+}
+
+.profile-user-posts-details img{
+    width: 90%;
+    border-radius: 8px;
+}
+
+.profile-user-posts img{
+    width: 100%;
+}
+
+.small-profile-post{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.small-profile-post img{
+    width: 70px;
+    height: 60px;
+    border-radius: 4px;
+}
+
+.small-profile-post h4{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.profile-seemore-posts, .prof-logout, .prof-see-fam-tree{
+    background: none;
+    outline: none;
+    border: none;
+}
+
+
+.profile-seemore-posts a, .prof-see-fam-tree a, .prof-logout{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #4267b2;
+    padding: 8px 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.profile-fam-tree{
+    margin-top: 30px;
+}
+.profile-fam-tree img{
+    width: 80px;
+} 
+
+.prof-kaasa-child span{
+    display: inline-block;
+    background-color: #4267b2;
+    border-radius: 8px;
+    color: #fff;
+    margin-right: 8px;
+    margin-top: 10px;
+    padding: 2px 8px;
+    text-align: center;
+}
+/* PROFILE CARD */
+
+
+/* HOME SECTION */
+
+
+
+/* HERO SECTION */
+.header{
+    max-width: 100%;
+    margin-top: 95px;
+    position: relative;
+    border-radius: 0px 0px 15px 15px;
+    overflow: hidden;
+}
+
+.header img{
+    width: 100%;
+}
+
+.header .cover-header{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.4);
+}
+
+.header .header-desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    position: absolute;
+    left: 50px;
+    text-align: center;
+    color: #000;
+}
+
+
+@media(max-width:1600px){
+    .header .header-desc{
+        font-size: 42px;
+        font-weight: 700;
+    }
+
+    .header .header-desc{
+        top: 20%;
+    }
+}
+
+
+@media(max-width:1020px){
+    .header .header-desc{
+        font-size: 36px;
+        font-weight: 600;
+    }
+
+    .header .header-desc{
+        top: 25%;
+    }
+}
+
+
+@media(max-width:768px){
+    .header .header-desc{
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    .header .header-desc{
+        top: 20%;
+    }
+}
+
+
+@media(max-width:568px){
+    .header .header-desc{
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .header .header-desc{
+        top: 20%;
+    }
+}
+
+
+@media(max-width:480px){
+    .header .header-desc{
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .header .header-desc{
+        top: 20%;
+    }
+}
+
+
+@media(max-width:368px){
+    .header .header-desc{
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .header .header-desc{
+        top: 20%;
+    }
+}
+
+
+@media(max-width:290px){
+    .header .header-desc{
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .header .header-desc{
+        top: 20%;
+        left: 20px;
+    }
+}
+/* HERO SECTION */
+
+
+/* NEWS AND ANNOUCEMENTS */
+.news-updates{
+    margin: 30px 10px;
+    text-align: center;
+}
+.news-updates-sect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+.news-updates-sect >*{
+    flex: 1 1 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-updates-sect img{
+    width: 100%;
+}
+/* NEWS AND ANNOUCEMENTS */
+
+
+/* BLOG POSTS */
+.blog-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 20px 8px;
+}
+
+
+.blog-user-name, .blog-calendar, .post-date, .blog-title{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.blog-body p{
+    line-height: 2;
+    font-weight: 500;
+}
+
+.blog-footer{
+    display: flex;
+    justify-content: space-around;
+    color: #ccc;
+    font-weight: 700;
+}
+
+.blogs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 10px;
+}
+
+.blog-share{
+    color: #4267b2;
+}
+
+@media(max-width:430px){
+    .blog-title{
+        display: block;
+        width: 100%;
+    }
+}
+
+/* BLOG POSTS */
