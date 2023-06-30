@@ -610,8 +610,47 @@ nav .user-profile{
 .photo-gal-items{
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
-    /* margin: 0px 10px 20px 10px; */
+    margin: 0px 10px 20px 10px;
 }
 /* FAMILY PHOTO GALLERY */
+
+
+/* FAMILY TREE */
+.famtre-rows{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    flex-direction: column;
+    width: 120px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+.famtre-rows img{
+    width: 100%;
+}
+.famtre-desc{
+    padding: 10px;
+    text-align: center;
+}
+
+.fam-tree-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.fam-tree{
+    background-color: #4267b2;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
