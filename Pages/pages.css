@@ -420,7 +420,7 @@ nav .user-profile{
 }
 
 .news-updates-sect >*{
-    flex: 1 1 30%;
+    flex: 1 1 45%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -601,7 +601,7 @@ nav .user-profile{
 }
 
 .photo-gal img{
-    width: 150px;
+    width: 120px;
     object-fit: cover;
     border: 2px solid #fff;
     border-radius: 5px;
@@ -611,8 +611,7 @@ nav .user-profile{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 20px;
-    margin: 0px 10px 20px 10px;
-
+    gap: 10px;
+    /* margin: 0px 10px 20px 10px; */
 }
 /* FAMILY PHOTO GALLERY */
